@@ -8,14 +8,15 @@ This project focuses on building, training, and evaluating a Convolutional Neura
 ### Table of Contents
 1. [Introduction](#introduction)
 2. [Setup](#setup)
-3. [Data](#data)
-4. [Model Architecture](#model-architecture)
-5. [Training](#training)
-6. [Evaluation](#evaluation)
-7. [Results](#results)
-8. [Conclusion](#conclusion)
-9. [Brain Tumor Dataset](#brain-tumor-dataset)
-10. [Download Dataset](#download-dataset)
+3. [Model Architecture](#model-architecture)
+4. [Training](#training)
+5. [Evaluation](#evaluation)
+6. [Results](#results)
+7. [Conclusion](#conclusion)
+8. [Brain Tumor Dataset](#brain-tumor-dataset)
+9. [Download Dataset](#download-dataset)
+10. [License](#license)
+11. [Installation](#installation)
 
 ---
 
@@ -38,12 +39,7 @@ The following libraries and packages are used:
 - tensorflow.keras.layers
 - tensorflow.keras.optimizers
 - sklearn.metrics
-
-# You can install the requirements by running:
-```bash
-pip install -r requirements.txt
-
-
+  
 ---
 
 
@@ -119,9 +115,10 @@ The training process shows a gradual improvement in accuracy over epochs, reachi
 ---
 
 ### 6. Evaluation <a name="evaluation"></a>
+
 The trained model is evaluated on the validation data to compute various metrics such as loss, accuracy, precision, recall, F1-score, ROC-AUC score, specificity, false positive rate (FPR), false negative rate (FNR), and sensitivity. Classification report and confusion matrix are generated to assess the model's performance.
 
-#### Evaluation Metrics:
+**Evaluation Metrics:**
 - Loss: Categorical crossentropy
 - Accuracy: Overall accuracy of the model
 - Precision: Ability of the model to avoid false positives
@@ -133,33 +130,49 @@ The trained model is evaluated on the validation data to compute various metrics
 - False Negative Rate (FNR): Proportion of positive instances incorrectly classified as negative
 - Sensitivity: Ability of the model to identify true positives in binary classification
 
-#### Classification Report and Confusion Matrix:
+**Classification Report and Confusion Matrix:**
 - Detailed report showing precision, recall, and F1-score for each class
 - Confusion matrix illustrating the true positive, false positive, true negative, and false negative predictions.
 
----
-
 ### 7. Results <a name="results"></a>
+
 The evaluation metrics provide insights into the model's performance, including its accuracy in classifying brain tumor images. Various types of accuracy metrics are computed, including overall accuracy and accuracy for each class (glioma, meningioma, and pituitary tumor).
 
 **Results Visualization:**
-- Classification reports, confusion matrices, and performance metric plots visualize the results of model evaluation.
-- ![output](https://github.com/AbdelrahmanHassan111/Brain-Tumor-Multi-Classification-using-Deep-Learning/assets/156480367/d277bf88-6973-42ed-95aa-debf362bec8f)
 
+Classification reports, confusion matrices, and performance metric plots visualize the results of model evaluation.
+
+![output](https://github.com/AbdelrahmanHassan111/Brain-Tumor-Multi-Classification-using-Deep-Learning/assets/156480367/7b0ca303-7fe3-4ca3-acaa-4ce255723d05)
 
 **Training Plots:**
-- The training accuracy and loss plots provide insights into the model's performance over epochs.
-![output2](https://github.com/AbdelrahmanHassan111/Brain-Tumor-Multi-Classification-using-Deep-Learning/assets/156480367/1082e66a-1bb1-418d-b1a2-45f3d36b949b)
 
----
+The training accuracy and loss plots provide insights into the model's performance over epochs.
+![output2](https://github.com/AbdelrahmanHassan111/Brain-Tumor-Multi-Classification-using-Deep-Learning/assets/156480367/c8c92311-9495-4c06-ad3d-8b6ab7af30fc)
 
 ### 8. Conclusion <a name="conclusion"></a>
+
 This project demonstrates the effectiveness of deep learning in classifying brain tumor images. By leveraging CNNs and data augmentation techniques, the model achieves significant accuracy in distinguishing between different tumor types. Further improvements and optimizations can be explored to enhance the model's performance for real-world applications.
 
----
-
 ### 10. Download Dataset <a name="download-dataset"></a>
-You can download the brain tumor dataset from [FigShare](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427?file=7953679).
 
----
+You can download the brain tumor dataset from FigShare.
 
+
+### 11. License <a name="license"></a>
+
+This project is licensed under the MIT License.
+
+### 12. Installation <a name="installation"></a>
+
+You can install the requirements by running:
+
+```bash
+pip install -r requirements.txt
+
+#!/bin/bash
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run training
+python train.py
