@@ -160,7 +160,7 @@ You can download the brain tumor dataset from FigShare.
 
 ### 11. License <a name="license"></a>
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code in accordance with the terms of the license.
 
 ### 12. Installation <a name="installation"></a>
 
