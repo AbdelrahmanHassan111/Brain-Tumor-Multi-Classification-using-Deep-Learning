@@ -1,4 +1,4 @@
-# Brain Tumor Classification using Deep Learning
+# Brain Tumor Multi-class Classification using Deep Learning
 
 ## Overview
 This project focuses on building, training, and evaluating a Convolutional Neural Network (CNN) for the classification of brain tumor images. The CNN is trained on image data to classify brain tumor images into three categories: glioma, meningioma, and pituitary. The model architecture is implemented using TensorFlow and Keras.
