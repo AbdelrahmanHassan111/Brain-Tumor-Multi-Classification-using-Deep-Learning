@@ -156,6 +156,8 @@ This project demonstrates the effectiveness of deep learning in classifying brai
 ### 10. Download Dataset <a name="download-dataset"></a>
 
 You can download the brain tumor dataset from FigShare.
+[Download here](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)
+
 
 
 ### 11. License <a name="license"></a>
